@@ -1,0 +1,218 @@
+$blue: #242F9B;
+$dark-grey: #808080;
+
+@media only screen and (max-width: 1600px) {
+    header {
+        padding: 40px 200px 0 200px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .head-container {
+        .hero {
+            h1 {
+                font-size: 64px !important;
+            }
+
+            p {
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .lets-meet-cards {
+        flex-direction: column;
+        padding: 0 60px;
+        width: 100%;
+    }
+
+    .lets-meet-card {
+        width: 100% !important;
+        height: 180px !important;
+    }
+
+    .working-on-cards {
+        flex-direction: column;
+        padding: 0 60px !important;
+        width: 100%;
+    }
+
+    .working-on-card {
+        width: 100% !important;
+    }
+
+    .social-media-cards {
+        flex-direction: column;
+        padding: 0 60px;
+        width: 100%;
+
+        .social-media-card{
+            width: 100% !important;
+        }
+    }
+
+    .lets-meet-container{
+        padding: 60px 0 !important;
+    }
+
+    .working-on-container{
+        padding: 60px 0 !important;
+    }
+
+    .social-media-container{
+        padding: 60px 0 !important;
+    }
+
+    header{
+        padding: 40px 60px 0 60px !important;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .head-container {
+        .hero {
+            h1 {
+                font-size: 48px !important;
+            }
+        }
+    }
+
+    .nav-menu {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        left: -100%;
+        z-index: 2 !important;
+        top: 0;
+        flex-direction: column;
+        /* background-color: #fff; */
+        background-color: $blue;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+
+        li{
+            a{
+                color: white;
+            }
+
+            .nav-button{
+                border: 1px solid white;
+            }
+        }
+    }
+
+    .arrow-down{
+        z-index: 0 !important;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .hamburger {
+        display: block !important;
+        cursor: pointer;
+        z-index: 2 !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: white;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: white;
+    }
+
+    footer{
+        p{
+            font-size: 16px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .head-container {
+        .hero {
+            h1 {
+                font-size: 36px !important;
+            }
+        }
+    }
+
+    .lets-meet-container{
+        h1{
+            font-size: 36px !important;
+        }
+    }
+
+    .working-on-container{
+        h1{
+            font-size: 36px !important;
+        }
+    }
+
+    .social-media-container{
+        h1{
+            font-size: 36px !important;
+        }
+    }
+
+    .lets-meet-cards{
+        padding: 0 24px !important;
+    }
+
+    .working-on-cards{
+        padding: 0 24px !important;
+    }
+
+    .social-media-cards{
+        padding: 0 24px !important;
+    }
+
+    header{
+        padding: 40px 24px 0 24px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .head-container {
+        .hero {
+            h1 {
+                font-size: 28px !important;
+            }
+
+            p{
+                font-size: 16px !important;
+            }
+        }
+    }
+
+    .lets-meet-container{
+        h1{
+            font-size: 24px !important;
+        }
+    }
+
+    .working-on-container{
+        h1{
+            font-size: 24px !important;
+        }
+    }
+
+    .social-media-container{
+        h1{
+            font-size: 24px !important;
+        }
+    }
+}
