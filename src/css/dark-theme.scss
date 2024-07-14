@@ -203,4 +203,12 @@ $dark-theme-blue-light: #151937;
     .scroll-to-top:hover i{
         color: $blue;
     }
+
+    @media only screen and (max-width: 960px) {
+        .scroll-to-top {
+            border: none !important;
+            color: $blue !important;
+            background-color: white !important;
+        }
+    }
 }

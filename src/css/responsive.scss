@@ -46,24 +46,24 @@ $dark-grey: #808080;
         padding: 0 60px;
         width: 100%;
 
-        .social-media-card{
+        .social-media-card {
             width: 100% !important;
         }
     }
 
-    .lets-meet-container{
+    .lets-meet-container {
         padding: 60px 0 !important;
     }
 
-    .working-on-container{
+    .working-on-container {
         padding: 60px 0 !important;
     }
 
-    .social-media-container{
+    .social-media-container {
         padding: 60px 0 !important;
     }
 
-    header{
+    header {
         padding: 40px 60px 0 60px !important;
     }
 }
@@ -95,18 +95,18 @@ $dark-grey: #808080;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
 
-        li{
-            a{
+        li {
+            a {
                 color: white;
             }
 
-            .nav-button{
+            .nav-button {
                 border: 1px solid white;
             }
         }
     }
 
-    .arrow-down{
+    .arrow-down {
         z-index: 0 !important;
     }
 
@@ -134,15 +134,23 @@ $dark-grey: #808080;
         background-color: white;
     }
 
-    .dark-light{
+    .dark-light {
         border: 1px solid white !important;
         color: white !important;
     }
 
-    footer{
-        p{
+    footer {
+        p {
             font-size: 16px !important;
         }
+    }
+
+    .scroll-to-top {
+        border: none !important;
+        color: white !important;
+        background-color: $blue !important;
+        bottom: 24px !important;
+        right: 24px !important;
     }
 }
 
@@ -155,37 +163,37 @@ $dark-grey: #808080;
         }
     }
 
-    .lets-meet-container{
-        h1{
+    .lets-meet-container {
+        h1 {
             font-size: 36px !important;
         }
     }
 
-    .working-on-container{
-        h1{
+    .working-on-container {
+        h1 {
             font-size: 36px !important;
         }
     }
 
-    .social-media-container{
-        h1{
+    .social-media-container {
+        h1 {
             font-size: 36px !important;
         }
     }
 
-    .lets-meet-cards{
+    .lets-meet-cards {
         padding: 0 24px !important;
     }
 
-    .working-on-cards{
+    .working-on-cards {
         padding: 0 24px !important;
     }
 
-    .social-media-cards{
+    .social-media-cards {
         padding: 0 24px !important;
     }
 
-    header{
+    header {
         padding: 40px 24px 0 24px !important;
     }
 }
@@ -197,26 +205,26 @@ $dark-grey: #808080;
                 font-size: 28px !important;
             }
 
-            p{
+            p {
                 font-size: 16px !important;
             }
         }
     }
 
-    .lets-meet-container{
-        h1{
+    .lets-meet-container {
+        h1 {
             font-size: 24px !important;
         }
     }
 
-    .working-on-container{
-        h1{
+    .working-on-container {
+        h1 {
             font-size: 24px !important;
         }
     }
 
-    .social-media-container{
-        h1{
+    .social-media-container {
+        h1 {
             font-size: 24px !important;
         }
     }
