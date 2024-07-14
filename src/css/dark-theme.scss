@@ -1,0 +1,206 @@
+@import url('https://fonts.cdnfonts.com/css/stretch-pro');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$blue: #242F9B;
+$dark-theme-blue: #0D0E1F;
+$dark-theme-blue-light: #151937;
+
+.dark-theme {
+    header {
+        ul {
+            li {
+                a {
+                    color: white;
+                }
+
+                .nav-button {
+                    border: 1px solid white;
+
+                    i {
+                        font-size: 16px;
+                    }
+                }
+
+                .nav-button:hover {
+                    background-color: white;
+                    color: $blue;
+                }
+            }
+
+            .dark-light {
+                border: 1px solid white;
+                color: white;
+            }
+
+            .dark-light:hover {
+                background-color: white;
+            }
+
+            .dark-light:hover i {
+                color: $blue;
+            }
+        }
+
+        .bar {
+            background-color: white;
+        }
+    }
+
+    .head-container {
+        background: url("../../public/web_banner_dark.png");
+    
+        .hero {
+            h1 {
+                color: white;
+            }
+    
+            p {
+                color: white;
+            }
+    
+        }
+    
+        .arrow-down {
+            i {
+                color: white;
+            }
+        }
+    }
+
+    .lets-meet-container {
+        background-color: $dark-theme-blue;
+    
+        h1 {
+            color: white;
+        }
+    
+        .lets-meet-cards {
+            .lets-meet-card {
+                background-color: $dark-theme-blue-light;
+    
+                i {
+                    color: white;
+                }
+    
+                p {
+                    color: white;
+                }
+            }
+    
+            .lets-meet-card:hover {
+                background-color: #262c58;
+            }
+    
+            .lets-meet-card:hover i {
+                color: white;
+            }
+    
+            .lets-meet-card:hover p {
+                color: white;
+            }
+        }
+    }
+
+    .working-on-container {
+        background-color: $dark-theme-blue-light;
+    
+        h1 {
+            color: white;
+        }
+    
+        .working-on-cards {
+            .working-on-card {
+                background-color: $dark-theme-blue;
+                .card-content {
+                    .card-text {
+                        h3 {
+                            color: white;
+                        }
+    
+                        p {
+                            color: white;
+                        }
+                    }
+    
+                    .nav-button {
+                        border: 1px solid white;
+                        color: white;
+    
+                        i {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+    
+            .working-on-card:hover {
+                background-color: #262c58;
+            }
+
+            .working-on-card:hover .card-content .card-text h3 {
+                color: white;
+            }
+    
+            .working-on-card:hover .card-content .card-text p {
+                color: white;
+            }
+    
+            .working-on-card:hover .card-content .nav-button {
+                color: white;
+                border: 1px solid white;
+            }
+    
+            .working-on-card .card-content .nav-button:hover {
+                background-color: white;
+                color: $blue;
+            }
+        }
+    }
+
+    .social-media-container {
+        background-color: $dark-theme-blue;
+    
+        h1 {
+            color: white;
+        }
+    
+        .social-media-cards {
+            .social-media-card {
+                background-color: $dark-theme-blue-light;
+    
+                i {
+                    color: white;
+                }
+            }
+    
+            .social-media-card:hover {
+                background-color: #262c58;
+            }
+    
+            .social-media-card:hover i {
+                color: white;
+            }
+        }
+    }
+
+    footer {
+        background-color: $dark-theme-blue-light;
+    
+        p {
+            color: white;
+        }
+    }
+
+    .scroll-to-top {
+        border: 1px solid white;
+        color: white;
+    }
+    
+    .scroll-to-top:hover{
+        background-color: white;
+    }
+    
+    .scroll-to-top:hover i{
+        color: $blue;
+    }
+}
