@@ -5,21 +5,21 @@ function SocialMediaContainer() {
         <div className='social-media-container' id='social-media'>
             <h1>SOCIAL MEDIA</h1>
             <div className="social-media-cards">
-                <div className="social-media-card">
+                <a href='https://www.instagram.com/enesmuzafferr/' target='_blank' className="social-media-card">
                     <i class="bi bi-instagram"></i>
-                </div>
+                </a>
 
-                <div className="social-media-card">
+                <a href='https://www.linkedin.com/in/muzaffer-yildirim/' target='_blank' className="social-media-card">
                     <i class="bi bi-linkedin"></i>
-                </div>
+                </a>
 
-                <div className="social-media-card">
+                <a href='https://www.behance.net/muzafferyldrm' target='_blank' className="social-media-card">
                     <i class="bi bi-behance"></i>
-                </div>
+                </a>
 
-                <div className="social-media-card">
+                <a href='https://github.com/enesmuzaffer22' target='_blank' className="social-media-card">
                     <i class="bi bi-github"></i>
-                </div>
+                </a>
             </div>
         </div>
     )
