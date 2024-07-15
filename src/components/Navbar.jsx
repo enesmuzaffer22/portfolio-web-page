@@ -43,8 +43,8 @@ function Navbar() {
             <ul className={`nav-menu ${menuOpen ? 'active' : ''} ${theme === 'dark' ? 'dark-theme' : ''}`}>
                 <li><a href="#lets-meet" className="nav-link">Let's meet</a></li>
                 <li><a href="#working-on" className="nav-link"> Workin' on</a></li>
-                <li><a href="https://github.com/enesmuzaffer22" target='_blank' className="nav-button nav-link"><i className="bi bi-github"></i> Github</a></li>
-                <li><a href="https://www.behance.net/muzafferyldrm" target='_blank' className="nav-button nav-link"><i className="bi bi-behance"></i> Behance</a></li>
+                <li><a href="https://github.com/enesmuzaffer22" target='_blank' rel="noopener noreferrer" className="nav-button nav-link"><i className="bi bi-github"></i> Github</a></li>
+                <li><a href="https://www.behance.net/muzafferyldrm" target='_blank' rel="noopener noreferrer" className="nav-button nav-link"><i className="bi bi-behance"></i> Behance</a></li>
                 <button className='dark-light' onClick={toggleTheme}><i className={`bi bi-${theme === 'dark' ? 'moon' : 'sun'}`}></i></button>
             </ul>
 

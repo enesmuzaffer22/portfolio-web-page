@@ -15,7 +15,7 @@ function WorkingOnContainer() {
                             <p>I am improving myself in the Front End field and taking part in projects.</p>
                         </div>
 
-                        <a href="https://github.com/enesmuzaffer22" target='_blank' className='nav-button'><i class="bi bi-github"></i> Github</a>
+                        <a href="https://github.com/enesmuzaffer22" target='_blank' rel="noopener noreferrer" className='nav-button'><i class="bi bi-github"></i> Github</a>
                     </div>
                 </div>
                 
@@ -28,7 +28,7 @@ function WorkingOnContainer() {
                             <p>I continue my graphic design adventure, which I started as a hobby, by taking part in some big projects.</p>
                         </div>
 
-                        <a href="https://www.behance.net/muzafferyldrm" target='_blank' className='nav-button'><i class="bi bi-behance"></i> Behance</a>
+                        <a href="https://www.behance.net/muzafferyldrm" rel="noopener noreferrer" target='_blank' className='nav-button'><i class="bi bi-behance"></i> Behance</a>
                     </div>
                 </div>
             </div>
