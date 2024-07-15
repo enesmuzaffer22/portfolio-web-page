@@ -8,7 +8,7 @@ function HeadContainer() {
             behavior: 'smooth'
         });
     }
-    
+
     return (
         <div className='head-container'>
             <Navbar />
@@ -16,11 +16,10 @@ function HeadContainer() {
             <div className="hero">
                 <h1>MUZAFFER<br></br>YILDIRIM</h1>
                 <p>designer & developer</p>
-            </div>
 
-
-            <div className="arrow-down">
-                <i class="bi bi-arrow-down-circle" onClick={scrollDown}></i>
+                <div className="arrow-down">
+                    <i class="bi bi-arrow-down-circle" onClick={scrollDown}></i>
+                </div>
             </div>
         </div>
     )
