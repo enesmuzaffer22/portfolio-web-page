@@ -1,5 +1,3 @@
-# For preview: [https://polite-halva-5347cf.netlify.app](https://profound-gecko-40f300.netlify.app/)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
